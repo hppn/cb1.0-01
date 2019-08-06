@@ -1,0 +1,30 @@
+{
+  "name": "cb1.0-01",
+  "version": "1.0.0",
+  "description": "CB 1.0 New Features",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "node": "^12.7.0",
+    "node-sass": "^4.12.0",
+    "popper": "^1.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "npm run compile-sass && http-server .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-sass": "node-sass sass/prototype.scss css/prototype.css --watch",
+    "compile-sass": "node-sass sass/prototype.scss css/prototype.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hppn/cb1.0-01.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hppn/cb1.0-01/issues"
+  },
+  "homepage": "https://github.com/hppn/cb1.0-01#readme"
+}
